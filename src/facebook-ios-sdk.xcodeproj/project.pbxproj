@@ -2554,7 +2554,7 @@
 				85AEC52E17E3930F0073BFEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "facebook-ios-sdk" */ = {
 			isa = XCConfigurationList;
@@ -2563,7 +2563,7 @@
 				85AEC52D17E3930F0073BFEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		85A44BAD16A8CE05007BE80E /* Build configuration list for PBXNativeTarget "FacebookSDKIntegrationTests" */ = {
 			isa = XCConfigurationList;
@@ -2572,7 +2572,7 @@
 				85AEC53017E3930F0073BFEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		B9CBC52B152537270036AA71 /* Build configuration list for PBXNativeTarget "FacebookSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -2581,7 +2581,7 @@
 				85AEC52F17E3930F0073BFEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
