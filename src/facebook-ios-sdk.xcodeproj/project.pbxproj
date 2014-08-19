@@ -248,13 +248,11 @@
 		89BEB40C18E48003006C97A6 /* NSError+FBError.h in Headers */ = {isa = PBXBuildFile; fileRef = 89BEB40A18E48003006C97A6 /* NSError+FBError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89D8D78819901A080041CF82 /* libBolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B08E41190596EB00EE0BB1 /* libBolts.a */; };
 		89D8D78F19901A840041CF82 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C610951699109000E7BB7D /* libOCMock.a */; };
-		89D8D79019901A880041CF82 /* libOHHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D8D767199015740041CF82 /* libOHHTTPStubs.a */; };
 		89D8D79219901B1A0041CF82 /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libfacebook_ios_sdk.a */; };
 		89D8D7B21990249B0041CF82 /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libfacebook_ios_sdk.a */; };
 		89D8D7B5199024B90041CF82 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C610951699109000E7BB7D /* libOCMock.a */; };
 		89D8D7B8199025860041CF82 /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libfacebook_ios_sdk.a */; };
 		89D8D7BF199025BA0041CF82 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C610951699109000E7BB7D /* libOCMock.a */; };
-		89D8D7C0199025C10041CF82 /* libOHHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D8D767199015740041CF82 /* libOHHTTPStubs.a */; };
 		89E973A3192A4D3900C479CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89263BF91926C83B00A44711 /* QuartzCore.framework */; };
 		89E973AE192A4D5E00C479CC /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 89263BEA1926C7E200A44711 /* FBSnapshotTestCase.m */; };
 		89E973AF192A4D5E00C479CC /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89263BEC1926C7E200A44711 /* FBSnapshotTestController.m */; };
@@ -381,6 +379,20 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
+		0467AE8619A3A11B002913DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85C60EE61698DA5300E7BB7D /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09793579161B6251006DB5D5;
+			remoteInfo = OHHTTPStubs;
+		};
+		0467AE8819A3A11B002913DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85C60EE61698DA5300E7BB7D /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 098368CE168FC7920082B1A4;
+			remoteInfo = UnitTests;
+		};
 		85B08E40190596EB00EE0BB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 85B08E38190596EB00EE0BB1 /* Bolts.xcodeproj */;
@@ -437,41 +449,6 @@
 			remoteGlobalIDString = 030EF0DC14632FF700B04273;
 			remoteInfo = OCMockLib;
 		};
-		89B220991926C08C00FD98CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 85C610871699109000E7BB7D /* OCMock.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D31108AD1828DB8700737925;
-			remoteInfo = OCMockLibTests;
-		};
-		89D8D766199015740041CF82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 85C60EE61698DA5300E7BB7D /* OHHTTPStubs.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 09110A4119805F4800D175E4;
-			remoteInfo = "OHHTTPStubs iOS";
-		};
-		89D8D768199015740041CF82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 85C60EE61698DA5300E7BB7D /* OHHTTPStubs.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 09110A5119805F4800D175E4;
-			remoteInfo = "OHHTTPStubs iOS Tests";
-		};
-		89D8D76A199015740041CF82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 85C60EE61698DA5300E7BB7D /* OHHTTPStubs.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 095981C219806A7900807DBE;
-			remoteInfo = "OHHTTPStubs Mac";
-		};
-		89D8D76C199015740041CF82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 85C60EE61698DA5300E7BB7D /* OHHTTPStubs.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 095981D219806A7900807DBE;
-			remoteInfo = "OHHTTPStubs Mac Tests";
-		};
 		89D8D78619901A050041CF82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 85B08E38190596EB00EE0BB1 /* Bolts.xcodeproj */;
@@ -492,13 +469,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 030EF0DB14632FF700B04273;
 			remoteInfo = OCMockLib;
-		};
-		89D8D78D19901A6E0041CF82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 85C60EE61698DA5300E7BB7D /* OHHTTPStubs.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 09110A4019805F4800D175E4;
-			remoteInfo = "OHHTTPStubs iOS";
 		};
 		89D8D7A4199024900041CF82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -541,13 +511,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 030EF0DB14632FF700B04273;
 			remoteInfo = OCMockLib;
-		};
-		89D8D7BD199025B60041CF82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 85C60EE61698DA5300E7BB7D /* OHHTTPStubs.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 09110A4019805F4800D175E4;
-			remoteInfo = "OHHTTPStubs iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -898,7 +861,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D8D7C0199025C10041CF82 /* libOHHTTPStubs.a in Frameworks */,
 				89D8D7BF199025BA0041CF82 /* libOCMock.a in Frameworks */,
 				89D8D7B8199025860041CF82 /* libfacebook_ios_sdk.a in Frameworks */,
 				85D1B2001908896A00880700 /* OCHamcrestIOS.framework in Frameworks */,
@@ -940,7 +902,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				89D8D79219901B1A0041CF82 /* libfacebook_ios_sdk.a in Frameworks */,
-				89D8D79019901A880041CF82 /* libOHHTTPStubs.a in Frameworks */,
 				89D8D78F19901A840041CF82 /* libOCMock.a in Frameworks */,
 				89A4410118DB93BB001AC2F9 /* OCHamcrestIOS.framework in Frameworks */,
 				89B220A11926C22A00FD98CF /* XCTest.framework in Frameworks */,
@@ -1344,7 +1305,7 @@
 			isa = PBXGroup;
 			children = (
 				85B08E41190596EB00EE0BB1 /* libBolts.a */,
-				85B08E43190596EB00EE0BB1 /* MacBolts.dylib */,
+				85B08E43190596EB00EE0BB1 /* libMacBolts.a */,
 				85B08E45190596EB00EE0BB1 /* BoltsTests.xctest */,
 				85B08E47190596EB00EE0BB1 /* MacBoltsTests.xctest */,
 				85B08E49190596EB00EE0BB1 /* BoltsTestUI.app */,
@@ -1366,10 +1327,8 @@
 		85C60EE71698DA5300E7BB7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89D8D767199015740041CF82 /* libOHHTTPStubs.a */,
-				89D8D769199015740041CF82 /* OHHTTPStubs iOS Tests.xctest */,
-				89D8D76B199015740041CF82 /* OHHTTPStubs.framework */,
-				89D8D76D199015740041CF82 /* OHHTTPStubs Mac Tests.xctest */,
+				0467AE8719A3A11B002913DB /* libOHHTTPStubs.a */,
+				0467AE8919A3A11B002913DB /* UnitTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1378,9 +1337,8 @@
 			isa = PBXGroup;
 			children = (
 				85C610911699109000E7BB7D /* OCMock.framework */,
-				85C610931699109000E7BB7D /* OCMockTests.xctest */,
+				85C610931699109000E7BB7D /* OCMockTests.octest */,
 				85C610951699109000E7BB7D /* libOCMock.a */,
-				89B2209A1926C08C00FD98CF /* OCMockLibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1819,7 +1777,6 @@
 			dependencies = (
 				89D8D7B71990257B0041CF82 /* PBXTargetDependency */,
 				89D8D7BC199025B30041CF82 /* PBXTargetDependency */,
-				89D8D7BE199025B60041CF82 /* PBXTargetDependency */,
 				89D8D7BA1990259D0041CF82 /* PBXTargetDependency */,
 			);
 			name = FacebookSDKIntegrationTests;
@@ -1880,7 +1837,6 @@
 			dependencies = (
 				89D8D78A19901A5F0041CF82 /* PBXTargetDependency */,
 				89D8D78C19901A690041CF82 /* PBXTargetDependency */,
-				89D8D78E19901A6E0041CF82 /* PBXTargetDependency */,
 			);
 			name = FacebookSDKTests;
 			productName = FacebookSDKTests;
@@ -1957,6 +1913,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		0467AE8719A3A11B002913DB /* libOHHTTPStubs.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOHHTTPStubs.a;
+			remoteRef = 0467AE8619A3A11B002913DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0467AE8919A3A11B002913DB /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = 0467AE8819A3A11B002913DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		85B08E41190596EB00EE0BB1 /* libBolts.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1964,10 +1934,10 @@
 			remoteRef = 85B08E40190596EB00EE0BB1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		85B08E43190596EB00EE0BB1 /* MacBolts.dylib */ = {
+		85B08E43190596EB00EE0BB1 /* libMacBolts.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = MacBolts.dylib;
+			path = libMacBolts.a;
 			remoteRef = 85B08E42190596EB00EE0BB1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -1999,10 +1969,10 @@
 			remoteRef = 85C610901699109000E7BB7D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		85C610931699109000E7BB7D /* OCMockTests.xctest */ = {
+		85C610931699109000E7BB7D /* OCMockTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = OCMockTests.xctest;
+			path = OCMockTests.octest;
 			remoteRef = 85C610921699109000E7BB7D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -2011,41 +1981,6 @@
 			fileType = archive.ar;
 			path = libOCMock.a;
 			remoteRef = 85C610941699109000E7BB7D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		89B2209A1926C08C00FD98CF /* OCMockLibTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OCMockLibTests.xctest;
-			remoteRef = 89B220991926C08C00FD98CF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		89D8D767199015740041CF82 /* libOHHTTPStubs.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libOHHTTPStubs.a;
-			remoteRef = 89D8D766199015740041CF82 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		89D8D769199015740041CF82 /* OHHTTPStubs iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "OHHTTPStubs iOS Tests.xctest";
-			remoteRef = 89D8D768199015740041CF82 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		89D8D76B199015740041CF82 /* OHHTTPStubs.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OHHTTPStubs.framework;
-			remoteRef = 89D8D76A199015740041CF82 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		89D8D76D199015740041CF82 /* OHHTTPStubs Mac Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "OHHTTPStubs Mac Tests.xctest";
-			remoteRef = 89D8D76C199015740041CF82 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -2309,11 +2244,6 @@
 			name = OCMockLib;
 			targetProxy = 89D8D78B19901A690041CF82 /* PBXContainerItemProxy */;
 		};
-		89D8D78E19901A6E0041CF82 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "OHHTTPStubs iOS";
-			targetProxy = 89D8D78D19901A6E0041CF82 /* PBXContainerItemProxy */;
-		};
 		89D8D7A5199024900041CF82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D2AAC07D0554694100DB518D /* facebook-ios-sdk */;
@@ -2343,11 +2273,6 @@
 			isa = PBXTargetDependency;
 			name = OCMockLib;
 			targetProxy = 89D8D7BB199025B30041CF82 /* PBXContainerItemProxy */;
-		};
-		89D8D7BE199025B60041CF82 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "OHHTTPStubs iOS";
-			targetProxy = 89D8D7BD199025B60041CF82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2391,6 +2316,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"\"$(DERIVED_FILE_DIR)\"",
+					"\"$(SRCROOT)/../Bolts-IOS/\"",
+				);
 			};
 			name = Debug;
 		};
@@ -2398,6 +2330,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"\"$(DERIVED_FILE_DIR)\"",
+					"\"$(SRCROOT)/../Bolts-IOS/\"",
+				);
 			};
 			name = Release;
 		};
@@ -2429,75 +2368,12 @@
 			};
 			name = Release;
 		};
-		85AEC52D17E3930F0073BFEA /* Release64 */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8984B687192E746E0008D347 /* FacebookSDK-Project-Release-64.xcconfig */;
-			buildSettings = {
-			};
-			name = Release64;
-		};
-		85AEC52E17E3930F0073BFEA /* Release64 */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
-			buildSettings = {
-			};
-			name = Release64;
-		};
-		85AEC52F17E3930F0073BFEA /* Release64 */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 892B1FA41926A84100E61379 /* FacebookSDK-LogicTests-Override.xcconfig */;
-			buildSettings = {
-			};
-			name = Release64;
-		};
-		85AEC53017E3930F0073BFEA /* Release64 */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
-			buildSettings = {
-			};
-			name = Release64;
-		};
-		85AEC53617E3931A0073BFEA /* Debug64 */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8984B686192E746E0008D347 /* FacebookSDK-Project-Debug-64.xcconfig */;
-			buildSettings = {
-			};
-			name = Debug64;
-		};
-		85AEC53717E3931A0073BFEA /* Debug64 */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
-			buildSettings = {
-			};
-			name = Debug64;
-		};
-		85AEC53817E3931A0073BFEA /* Debug64 */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 892B1FA41926A84100E61379 /* FacebookSDK-LogicTests-Override.xcconfig */;
-			buildSettings = {
-			};
-			name = Debug64;
-		};
-		85AEC53917E3931A0073BFEA /* Debug64 */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
-			buildSettings = {
-			};
-			name = Debug64;
-		};
 		89263C2A1926CBA600A44711 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89263C3D1926CD9B00A44711 /* FacebookSDK-Application.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
-		};
-		89263C2B1926CBA600A44711 /* Debug64 */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89263C3D1926CD9B00A44711 /* FacebookSDK-Application.xcconfig */;
-			buildSettings = {
-			};
-			name = Debug64;
 		};
 		89263C2C1926CBA600A44711 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2506,13 +2382,6 @@
 			};
 			name = Release;
 		};
-		89263C2D1926CBA600A44711 /* Release64 */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89263C3D1926CD9B00A44711 /* FacebookSDK-Application.xcconfig */;
-			buildSettings = {
-			};
-			name = Release64;
-		};
 		89263C2F1926CBA600A44711 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
@@ -2520,26 +2389,12 @@
 			};
 			name = Debug;
 		};
-		89263C301926CBA600A44711 /* Debug64 */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
-			buildSettings = {
-			};
-			name = Debug64;
-		};
 		89263C311926CBA600A44711 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
-		};
-		89263C321926CBA600A44711 /* Release64 */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
-			buildSettings = {
-			};
-			name = Release64;
 		};
 		B9CBC529152537270036AA71 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2562,9 +2417,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
-				85AEC53717E3931A0073BFEA /* Debug64 */,
 				1DEB922008733DC00010E9CD /* Release */,
-				85AEC52E17E3930F0073BFEA /* Release64 */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2573,9 +2426,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
-				85AEC53617E3931A0073BFEA /* Debug64 */,
 				1DEB922408733DC00010E9CD /* Release */,
-				85AEC52D17E3930F0073BFEA /* Release64 */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2584,9 +2435,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85A44BAE16A8CE05007BE80E /* Debug */,
-				85AEC53917E3931A0073BFEA /* Debug64 */,
 				85A44BAF16A8CE05007BE80E /* Release */,
-				85AEC53017E3930F0073BFEA /* Release64 */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2595,9 +2444,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89263C2A1926CBA600A44711 /* Debug */,
-				89263C2B1926CBA600A44711 /* Debug64 */,
 				89263C2C1926CBA600A44711 /* Release */,
-				89263C2D1926CBA600A44711 /* Release64 */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2606,9 +2453,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89263C2F1926CBA600A44711 /* Debug */,
-				89263C301926CBA600A44711 /* Debug64 */,
 				89263C311926CBA600A44711 /* Release */,
-				89263C321926CBA600A44711 /* Release64 */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2617,9 +2462,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9CBC529152537270036AA71 /* Debug */,
-				85AEC53817E3931A0073BFEA /* Debug64 */,
 				B9CBC52A152537270036AA71 /* Release */,
-				85AEC52F17E3930F0073BFEA /* Release64 */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
