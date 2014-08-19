@@ -2312,6 +2312,153 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0467AEDC19A3EC48002913DB /* Preview */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892B1FA21926A84100E61379 /* FacebookSDK-Project-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Preview;
+		};
+		0467AEDD19A3EC48002913DB /* Preview */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"\"$(DERIVED_FILE_DIR)\"",
+					"\"$(SRCROOT)/../Bolts-IOS/\"",
+				);
+			};
+			name = Preview;
+		};
+		0467AEDE19A3EC48002913DB /* Preview */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892B1FA41926A84100E61379 /* FacebookSDK-LogicTests-Override.xcconfig */;
+			buildSettings = {
+			};
+			name = Preview;
+		};
+		0467AEDF19A3EC48002913DB /* Preview */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
+			buildSettings = {
+			};
+			name = Preview;
+		};
+		0467AEE019A3EC48002913DB /* Preview */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
+			buildSettings = {
+			};
+			name = Preview;
+		};
+		0467AEE119A3EC48002913DB /* Preview */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89263C3D1926CD9B00A44711 /* FacebookSDK-Application.xcconfig */;
+			buildSettings = {
+			};
+			name = Preview;
+		};
+		0467AEEA19A3EC4E002913DB /* Internal */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892B1FA21926A84100E61379 /* FacebookSDK-Project-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Internal;
+		};
+		0467AEEB19A3EC4E002913DB /* Internal */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"\"$(DERIVED_FILE_DIR)\"",
+					"\"$(SRCROOT)/../Bolts-IOS/\"",
+				);
+			};
+			name = Internal;
+		};
+		0467AEEC19A3EC4E002913DB /* Internal */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892B1FA41926A84100E61379 /* FacebookSDK-LogicTests-Override.xcconfig */;
+			buildSettings = {
+			};
+			name = Internal;
+		};
+		0467AEED19A3EC4E002913DB /* Internal */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
+			buildSettings = {
+			};
+			name = Internal;
+		};
+		0467AEEE19A3EC4E002913DB /* Internal */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
+			buildSettings = {
+			};
+			name = Internal;
+		};
+		0467AEEF19A3EC4E002913DB /* Internal */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89263C3D1926CD9B00A44711 /* FacebookSDK-Application.xcconfig */;
+			buildSettings = {
+			};
+			name = Internal;
+		};
+		0467AEF019A3EC55002913DB /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892B1FA21926A84100E61379 /* FacebookSDK-Project-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Production;
+		};
+		0467AEF119A3EC55002913DB /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"\"$(DERIVED_FILE_DIR)\"",
+					"\"$(SRCROOT)/../Bolts-IOS/\"",
+				);
+			};
+			name = Production;
+		};
+		0467AEF219A3EC55002913DB /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892B1FA41926A84100E61379 /* FacebookSDK-LogicTests-Override.xcconfig */;
+			buildSettings = {
+			};
+			name = Production;
+		};
+		0467AEF319A3EC55002913DB /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
+			buildSettings = {
+			};
+			name = Production;
+		};
+		0467AEF419A3EC55002913DB /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
+			buildSettings = {
+			};
+			name = Production;
+		};
+		0467AEF519A3EC55002913DB /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89263C3D1926CD9B00A44711 /* FacebookSDK-Application.xcconfig */;
+			buildSettings = {
+			};
+			name = Production;
+		};
 		1DEB921F08733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
@@ -2418,6 +2565,9 @@
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
 				1DEB922008733DC00010E9CD /* Release */,
+				0467AEF119A3EC55002913DB /* Production */,
+				0467AEEB19A3EC4E002913DB /* Internal */,
+				0467AEDD19A3EC48002913DB /* Preview */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2427,6 +2577,9 @@
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
 				1DEB922408733DC00010E9CD /* Release */,
+				0467AEF019A3EC55002913DB /* Production */,
+				0467AEEA19A3EC4E002913DB /* Internal */,
+				0467AEDC19A3EC48002913DB /* Preview */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2436,6 +2589,9 @@
 			buildConfigurations = (
 				85A44BAE16A8CE05007BE80E /* Debug */,
 				85A44BAF16A8CE05007BE80E /* Release */,
+				0467AEF319A3EC55002913DB /* Production */,
+				0467AEED19A3EC4E002913DB /* Internal */,
+				0467AEDF19A3EC48002913DB /* Preview */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2445,6 +2601,9 @@
 			buildConfigurations = (
 				89263C2A1926CBA600A44711 /* Debug */,
 				89263C2C1926CBA600A44711 /* Release */,
+				0467AEF519A3EC55002913DB /* Production */,
+				0467AEEF19A3EC4E002913DB /* Internal */,
+				0467AEE119A3EC48002913DB /* Preview */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2454,6 +2613,9 @@
 			buildConfigurations = (
 				89263C2F1926CBA600A44711 /* Debug */,
 				89263C311926CBA600A44711 /* Release */,
+				0467AEF419A3EC55002913DB /* Production */,
+				0467AEEE19A3EC4E002913DB /* Internal */,
+				0467AEE019A3EC48002913DB /* Preview */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2463,6 +2625,9 @@
 			buildConfigurations = (
 				B9CBC529152537270036AA71 /* Debug */,
 				B9CBC52A152537270036AA71 /* Release */,
+				0467AEF219A3EC55002913DB /* Production */,
+				0467AEEC19A3EC4E002913DB /* Internal */,
+				0467AEDE19A3EC48002913DB /* Preview */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
